@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2D46B9;
+}
+
+.web-page-header {
+    height: 80px;
+    color: white;
+}
+
+.header-complet {
+    background-color: black;
+    position: fixed;
+    top: 0%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.imagem-esquerda {
+    margin: 20px 380px;
+    width: 130px;
+}
+
+.header-direita {
+    margin-left: 130px;
+}
+
+.header-direita ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.header-direita ul li {
+    display: inline;
+    font-size: 17px;
+}
+
+.header-direita ul li a {
+    padding: 30px 15px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+.header-direita ul li a:hover {
+    color: rgb(0, 255, 0)
+}
+
+
+/* FOOTER */
+
+.web-page-footer {
+    background-color: black;
+    color: white;
+}
+
+.web-footer-page {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-complet {
+    margin: 0px 0px 0px 380px;
+}
+
+.imagem-footer {
+    margin-top: 70px;
+    width: 130px;
+}
+
+.footer-menu {
+    display: flex;
+    flex-direction: row;
+    margin-top: 90px;
+    margin-left: 70px;
+}
+
+.menu-footer {
+    padding: 0px 60px 0px 0px;
+}
+
+.menu-footer ul {
+    padding: 0px;
+    margin: 0px 40px 0px 0px;
+    list-style: none;
+}
+
+.menu-footer ul li a {
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 25px;
+}
+
+.menu-footer ul li a:hover {
+    color: rgb(0, 255, 0)
+}
+
+.image-footer {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-top: 80px;
+}
+
+.rede-social-footer img {
+    width: 30px;
+    margin-left: 40px;
+}
+
+.rede-social-footer img:hover {
+    filter: invert(55%) sepia(17%) saturate(7490%) hue-rotate(83deg) brightness(122%) contrast(126%);
+}
+
+.footer-final {
+    margin: 70px 0px 0px 190px;
+}
+
+.footer-final ul {
+    list-style: none;
+}
+
+.footer-final ul li {
+    display: inline;
+}
+
+.footer-final ul li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 30px 25px 75px 0px;
+    font-size: 12px;
+}
+
+.footer-final ul li a:hover {
+    color: rgb(0, 255, 0)
+}
